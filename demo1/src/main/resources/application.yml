@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: sentinelDemo1
+  cloud:
+    sentinel:
+      eager: true
+      transport:
+        dashboard: USCDAP62:8280
